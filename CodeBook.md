@@ -74,8 +74,8 @@ The following are the steps performed.
 
 
 ## Running the R script
-Step 1 - Make sure that the folder containing the raw data is in the working directory
-Step 2 - Run the R script run_analyis.R
+Step 1 - Make sure that the folder containing the raw data is in the working directory  
+Step 2 - Run the R script run_analyis.R  
 Step 3 - Check the result file 'average_measures.txt'
 
 
