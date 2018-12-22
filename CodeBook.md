@@ -15,45 +15,47 @@ The raw data is coming from the experiment called Human Activity Recognition Usi
 Raw data is proccessed to get only measurement on mean and standard deviation for test and training data set.  Data set is then summarized to get the average of all measures for each activity and for each subject. Final data set is saved in a file 'average_measures.txt'.
 
 Variables of the final dataset
-1. activity
-    Activity performed by subject of the experiment
-    Values:
-      WALKING
-      WALKING_UPSTAIRS
-      WALKING_DOWNSTAIRS
-      SITTING
-      STANDING
-      LAYING
+1. activity  
+    Activity performed by subject of the experiment  
+    Values:  
+      WALKING  
+      WALKING_UPSTAIRS  
+      WALKING_DOWNSTAIRS  
+      SITTING  
+      STANDING  
+      LAYING  
+      
 
 
-2. subject
-    Subject who performed the experiment
-    Values: Integers from 1 to 30
+2. subject  
+    Subject who performed the experiment  
+    Values: Integers from 1 to 30  
 
 
-3. Average measures
-   Average of all measures on mean and standard deviation
-   This consists of all variables below for XYZ 3-axial signals:
+3. Average measures  
+   Average of all measures on mean and standard deviation  
+   This consists of all variables below for XYZ 3-axial signals:  
    
-    tBodyAcc-XYZ
-    tGravityAcc-XYZ
-    tBodyAccJerk-XYZ
-    tBodyGyro-XYZ
-    tBodyGyroJerk-XYZ
-    tBodyAccMag
-    tGravityAccMag
-    tBodyAccJerkMag
-    tBodyGyroMag
-    tBodyGyroJerkMag
-    fBodyAcc-XYZ
-    fBodyAccJerk-XYZ
-    fBodyGyro-XYZ
-    fBodyAccMag
-    fBodyAccJerkMag
-    fBodyGyroMag
-    fBodyGyroJerkMag
+    tBodyAcc-XYZ  
+    tGravityAcc-XYZ  
+    tBodyAccJerk-XYZ  
+    tBodyGyro-XYZ  
+    tBodyGyroJerk-XYZ  
+    tBodyAccMag  
+    tGravityAccMag  
+    tBodyAccJerkMag  
+    tBodyGyroMag  
+    tBodyGyroJerkMag  
+    fBodyAcc-XYZ  
+    fBodyAccJerk-XYZ  
+    fBodyGyro-XYZ  
+    fBodyAccMag  
+    fBodyAccJerkMag  
+    fBodyGyroMag  
+    fBodyGyroJerkMag  
     
-    Values: Numeric decimal number (i.e - 0.27628845)
+    
+    Values: Numeric decimal number (i.e - 0.27628845)  
 
 
 ## Steps Performed to Arrive to Final Dataset
